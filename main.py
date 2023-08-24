@@ -16,6 +16,6 @@ else:
             i_octet = "0" + i_octet
 
         print(i, " -> ", i_octet)
-        ip_bin.append(i_octet + ' ')
+        ip_bin.append(i_octet)
 
 print(ip_bin)
